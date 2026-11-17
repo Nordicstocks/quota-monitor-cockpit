@@ -2,7 +2,7 @@
 
 Quota Monitor näitab, kui palju on sul alles **GitHub Copiloti**, **Claude Code'i** ja **Codexi** limiitidest. Numbrid on näha Visual Studio Code'i olekuribal, külgpaneelil ja graafilises ülevaates.
 
-*Microsoft, GitHub, Anthropic ega OpenAI ei ole Quota Monitoriga seotud ega ole seda heaks kiitnud. Quota Monitor kasutab iga tööriista andmete lugemiseks sisselogimisi, mis sul arvutis juba olemas on (Claude Code, Codex ja GitHubi konto Visual Studio Code'is), ega küsi kunagi parooli.*
+*Microsoft, GitHub, Anthropic ega OpenAI ei ole Quota Monitoriga seotud ega ole seda heaks kiitnud. Quota Monitor loeb limiite Claude Code'ist, Codexist ja GitHubist, kuhu oled sel arvutil juba sisse loginud (GitHubisse Visual Studio Code'i kaudu), ega küsi kunagi parooli.*
 
 ---
 
@@ -62,7 +62,7 @@ Iga tööriista real on lihtsate sõnadega kirjas, miks:
 | pole paigaldatud | Paigalda tööriist või lülita see jaotises **Sätted → Tööriistad** välja, kui sa seda ei kasuta |
 | pole sisse logitud | Logi sisse tööriistas endas (näiteks käivita terminalis üks kord `claude` või `codex`) |
 | pole ühendatud (Copilot) | Klõpsa **Ühenda GitHubiga** (3. jagu) |
-| lugemine ebaõnnestus (ooteaeg sai täis, ühendust pole …) | Quota Monitor proovib ise uuesti, esimest korda minuti või kahe pärast ja siis harvemini. Viimased numbrid jäävad alles ja on märgitud vanaks |
+| lugemine ebaõnnestus (ooteaeg sai täis, ühendust pole …) | Quota Monitor proovib ise uuesti, esimest korda minuti või kahe pärast ja siis harvemini. Viimased numbrid jäävad alles ja märgitakse aegunuks |
 
 **Quota Monitor: Refresh Data Now** („Värskenda andmeid kohe“) loeb limiidid kohe uuesti (Claude Code'i limiite kõige tihemini kord 2 minuti jooksul, teiste tööriistade limiite kord minutis).
 
@@ -76,7 +76,7 @@ Iga tööriista real on lihtsate sõnadega kirjas, miks:
 
 - **Aeg uuenemiseni ja uuenemise kellaaeg** igal limiidil ning **otsasaamise prognoos**: kas limiit saab praeguses tempos otsa enne, kui see uueneb?
 - **Reserve Guard:** hoiatus, kui limiidi jääk langeks praeguses tempos alla sinu määratud kvoodivaru (vaikimisi 20%).
-- **Soovitus tööriista vahetada:** kui ühe tööriista limiit hakkab otsa saama, nimetab hoiatus mõne teise tööriista, mida kasutad ja millel on veel palju alles, näiteks „Codex: veel 82% alles.“
+- **Soovitus tööriista vahetada:** kui ühe tööriista limiit hakkab otsa saama, pakub Quota Monitor hoiatuses välja mõne sinu teise tööriista, mille limiidist on veel palju alles, näiteks „Codex: veel 82% alles.“
 - **90 päeva kasutusajalugu**, trendijooned ja soojuskaart nädalapäevade ja tundide kaupa.
 - **Telefoni- ja sõnumiteavitused** ntfy.sh, Telegrami, Discordi või Slacki kaudu (5. jagu).
 - **Teavita mind, kui limiit uueneb** (kaardil 🔔) ja **hommikune kokkuvõte** kord päevas kella 06:00 ja 11:59 vahel.
@@ -138,7 +138,7 @@ Pärast iga näitu kirjutab Quota Monitor faili `~/.quota-cockpit/status.json`, 
 
 Sinu arvutis:
 
-- kasutusajalugu Visual Studio Code'i andmehoidlas, mis on eraldatud ainult sellele laiendusele;
+- kasutusajalugu Visual Studio Code'i andmehoidlas, mida kasutab ainult see laiendus;
 - kaust `~/.quota-cockpit/`: viimane näit, mida kõik aknad jagavad, ja Pro-ga terminali olekufail;
 - sinu Pro-litsentsivõti ning GitHubi token või Telegrami boti token, kui oled selle määranud, Visual Studio Code'i turvalises hoidlas.
 
