@@ -87,21 +87,21 @@ Iga tööriista real on lihtsate sõnadega kirjas, miks:
 
 ### 14-päevane prooviaeg
 
-Iga uue paigaldusega on kaasas **14 päeva täis-Pro-d**, ilma kaardi ja registreerumiseta. Prooviaeg algab siis, kui ilmub sinu **esimene näit**, mitte paigaldamisel, nii et seadistamisele kulunud päev ei lähe arvesse. Külgpaneel näitab, mitu päeva on jäänud.
+Iga uue paigaldusega saad **Pro kõiki võimalusi 14 päeva tasuta proovida**, ilma maksekaardi ja registreerumiseta. Prooviaeg algab siis, kui ilmub sinu **esimene näit**, mitte paigaldamisel, nii et seadistamisele kulunud päev ei lähe arvesse. Külgpaneel näitab, mitu päeva on jäänud.
 
-Kui prooviaega on jäänud 3 päeva, annab Quota Monitor sellest ühe korra teada. Kui prooviaeg lõpeb, lülituvad Pro-võimalused välja ja tasuta osa töötab edasi. **Sinu kasutusajalugu jääb alles.** Kõik, mis on vanem kui 24 tundi, on peidetud, mitte kustutatud, ja tuleb tagasi kohe, kui Pro avad.
+Kui prooviaega on jäänud 3 päeva, annab Quota Monitor sellest ühe korra teada. Kui prooviaeg lõpeb, lülituvad Pro-võimalused välja ja tasuta osa töötab edasi. **Sinu kasutusajalugu jääb alles.** Kõik, mis on vanem kui 24 tundi, on peidetud, mitte kustutatud, ja ilmub uuesti kohe, kui Pro ostad.
 
 ### Pro ostmine
 
-Pro eest **maksad ühe korra 9,99 €** — püsitellimust pole. Kui ei meeldi, saad 30 päeva jooksul kogu raha tagasi.
+Pro maksab **ühekordselt 9,99 €** — püsitellimust pole. Kui ei meeldi, saad 30 päeva jooksul kogu raha tagasi.
 
-1. Klõpsa külgpaneelil või graafilises ülevaates nuppu **Ava Pro — 9,99 €** või käivita käsk **Quota Monitor: Unlock Pro (€9.99 one-time)** („Ava Pro (9,99 € ühe korra)“).
+1. Klõpsa külgpaneelil või graafilises ülevaates nuppu **Osta Pro — 9,99 €** või käivita käsk **Quota Monitor: Unlock Pro (€9.99 one-time)** („Osta Pro (ühekordselt 9,99 €)“).
 2. Visual Studio Code küsib kõigepealt **„Do you want Code to open the external website?“** (kas lubad Code'il avada välise veebilehe) ja näitab aadressi `buy.polar.sh`. See on Visual Studio Code'i enda turvakontroll ja see ilmub iga laienduse puhul, mis veebilehe avab. Klõpsa **Open**.
 3. Maksa Polari lehel. Polar on pood, mis müüb Quota Monitor Pro-d ja tegeleb maksega. Quota Monitor sinu kaarti ei näe.
 4. Litsentsivõti tuleb sulle e-postiga. See algab tähtedega `QMV-`.
 5. Käivita **Quota Monitor: Enter Pro License Key** („Sisesta Pro-litsentsivõti“) ja kleebi võti. Pro hakkab kohe tööle.
 
-Üks võti töötab kuni 5 redaktoris, näiteks 5 arvutis. **Quota Monitor: Remove Pro License Key** („Eemalda Pro-litsentsivõti“) vabastab selle arvuti litsentsikoha, nii et saad võtit kasutada teises arvutis. Teise laienduse võti (näiteks selline, mis algab tähtedega `PRO-`) Quota Monitoris Pro-d ei ava.
+Üks võti töötab kuni 5 redaktoris, näiteks 5 arvutis. **Quota Monitor: Remove Pro License Key** („Eemalda Pro-litsentsivõti“) vabastab selle arvuti litsentsikoha, nii et saad võtit kasutada teises arvutis. Teise laienduse võti (näiteks selline, mis algab tähtedega `PRO-`) Quota Monitoris Pro-d ei aktiveeri.
 
 ## 5. Telefoni- ja sõnumiteavitused (Pro)
 
